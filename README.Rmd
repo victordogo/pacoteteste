@@ -1,0 +1,40 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pacoteteste
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of pacoteteste is to demonstrar a criacao de um pacote.
+
+## Installation
+
+You can install the development version of pacoteteste from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("victordogo/pacoteteste")
+```
+
+## Example
+
+Como usar a funcao teste:
+
+```{r example}
+library(pacoteteste)
+
+substitui_nome("O professor deu uma prova. A aluna foi muito bem, ja o aluno, nem tanto.")
+```
